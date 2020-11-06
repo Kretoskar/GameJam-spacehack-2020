@@ -23,9 +23,10 @@ public class PlayerRagdoll : MonoBehaviour
     private void Start()
     {
         _initialXPositions = new List<float>();
+        
         foreach (var spineComponent in _spineComponents)
         {
-            _initialXPositions.Add(spineComponent.position.x);
+            _initialXPositions.Add(spineComponent.localPosition.x);
         }
     }
     
@@ -47,9 +48,9 @@ public class PlayerRagdoll : MonoBehaviour
                 CalculateCurrentZRotation() * currentRotationMultiplier);
             
             
-            spine.transform.position = new Vector3(_initialXPositions[iterator] + currentPositionMultiplier * CalculateCurrentXPosition(),
-            spine.transform.position.y, 
-            spine.transform.position.z);
+            spine.transform.localPosition = new Vector3(_initialXPositions[iterator] + currentPositionMultiplier * CalculateCurrentXPosition(),
+            spine.transform.localPosition.y, 
+            spine.transform.localPosition.z);
             
             currentPositionMultiplier *= 1 + _positionMultiplier;
             currentRotationMultiplier *= _rotationMultiplier;

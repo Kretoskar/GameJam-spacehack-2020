@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/ParticleCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +75,7 @@
       <updated>1604685239069</updated>
       <workItem from="1604685250574" duration="4500000" />
       <workItem from="1604696451875" duration="40000" />
-      <workItem from="1604696506548" duration="5617000" />
+      <workItem from="1604696506548" duration="6580000" />
     </task>
     <servers />
   </component>
