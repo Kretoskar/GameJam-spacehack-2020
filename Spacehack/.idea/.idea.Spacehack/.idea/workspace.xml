@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/NewBehaviourScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/water 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/water 1.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/ParticleCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +74,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604685239069</updated>
-      <workItem from="1604685250574" duration="2939000" />
+      <workItem from="1604685250574" duration="4500000" />
+      <workItem from="1604696451875" duration="40000" />
+      <workItem from="1604696506548" duration="4977000" />
     </task>
     <servers />
   </component>
@@ -81,8 +93,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604696393620">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1604696393620" />
   </component>
 </project>

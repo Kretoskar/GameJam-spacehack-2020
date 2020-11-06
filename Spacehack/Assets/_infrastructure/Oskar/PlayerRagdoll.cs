@@ -14,6 +14,12 @@ public class PlayerRagdoll : MonoBehaviour
     
     [SerializeField, Range(0,1)]  private float _weight = .5f;
 
+    public float Weight
+    {
+        get => _weight;
+        set => _weight = value;
+    }
+
     private void Start()
     {
         _initialXPositions = new List<float>();
