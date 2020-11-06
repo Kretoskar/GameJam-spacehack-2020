@@ -27,15 +27,21 @@ public class Manager : MonoBehaviour
     private Particle[] particles;
     private ParticleCollider[] colliders;
     private bool clearing;
+    private bool initialized = true;
 
 
     private void Start()
     {
-        Initialize();
+
     }
 
     private void Update()
     {
+        if(initialized)
+        {
+            Initialize();
+            initialized = false;
+        }
         CalculateForces();
         ParticleMovement();
         CalculateCollisions();
