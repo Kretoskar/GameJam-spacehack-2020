@@ -38,7 +38,7 @@ public class Manager : MonoBehaviour
     {
         CalculateForces();
         ParticleMovement();
-        //CalculateCollisions();
+        CalculateCollisions();
         
     }
     private void Initialize()
