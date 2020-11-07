@@ -19,6 +19,17 @@ public class WaterGenerator : MonoBehaviour
         radius = waterManager.Radius;
         prefab = waterManager.Prefab;
         Initialize();
+        //InitializeInPlace();
+    }
+
+    private void InitializeInPlace()
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            GameObject currentGo = Instantiate(prefab);
+            currentGo.transform.localScale = Vector3.one * radius;
+            currentGo.transform.position = new Vector3(transform.position.x, Random.Range(transform.position.y, transform.position.y + 5), transform.position.z);
+        }
     }
     private void Initialize()
     {
