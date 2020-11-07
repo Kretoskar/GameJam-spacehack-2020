@@ -1695,21 +1695,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1014935540}
     m_Modifications:
-    - target: {fileID: 2754360974616019303, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: Amount
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2754360976052446813, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: PerRow
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2754360976052446813, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: Amount
-      value: 15000
-      objectReference: {fileID: 0}
     - target: {fileID: 3231933199210893453, guid: b58ec3fe89d81404bafb53f4a4c29c79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1765,30 +1750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3231933199210893453, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231933199210893453, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231933199210893453, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 6527831478678085046, guid: b58ec3fe89d81404bafb53f4a4c29c79,
         type: 3}
       propertyPath: m_Name
       value: Liquid Prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 6527831478678085046, guid: b58ec3fe89d81404bafb53f4a4c29c79,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58ec3fe89d81404bafb53f4a4c29c79, type: 3}
