@@ -6692,7 +6692,7 @@ PrefabInstance:
     - target: {fileID: 7137792512664929991, guid: 432304ad78e051d428c33aca7d5effe4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -100.3
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7137792512664929991, guid: 432304ad78e051d428c33aca7d5effe4,
         type: 3}
@@ -11956,7 +11956,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e5f41ad957fe52944a251390517076be, type: 2}
+      objectReference: {fileID: 2100000, guid: 8c5fefcf280eba846b0dd739fe926bee, type: 2}
+    - target: {fileID: 2735807408888452488, guid: 7e20ec979980ebb438736f5da1b95fb8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c5fefcf280eba846b0dd739fe926bee, type: 2}
+    - target: {fileID: 3658805014139093239, guid: 7e20ec979980ebb438736f5da1b95fb8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c5fefcf280eba846b0dd739fe926bee, type: 2}
+    - target: {fileID: 3820826035639019715, guid: 7e20ec979980ebb438736f5da1b95fb8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c5fefcf280eba846b0dd739fe926bee, type: 2}
     - target: {fileID: 6784711642820698227, guid: 7e20ec979980ebb438736f5da1b95fb8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12017,6 +12032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Compass
       objectReference: {fileID: 0}
+    - target: {fileID: 7889067060093362342, guid: 7e20ec979980ebb438736f5da1b95fb8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c5fefcf280eba846b0dd739fe926bee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e20ec979980ebb438736f5da1b95fb8, type: 3}
 --- !u!1 &1014935539
@@ -12603,22 +12623,22 @@ PrefabInstance:
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018972874
+      value: -0.7058289
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.018972874
+      value: -0.7070925
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7068522
+      value: -0.004559666
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7068522
+      value: 0.042484432
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
@@ -12628,17 +12648,17 @@ PrefabInstance:
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -86.925
+      value: -3.808
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -176.91801
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 89.795006
       objectReference: {fileID: 0}
     - target: {fileID: 4975463717160920798, guid: 80ae31cd6a5b70e44bb7e01e9d4a5461,
         type: 3}
@@ -13809,7 +13829,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2000
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -23279,7 +23299,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 33.8
   m_InnerSpotAngle: 21.80208
