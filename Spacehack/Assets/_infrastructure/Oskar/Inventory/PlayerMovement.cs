@@ -21,7 +21,9 @@ public class PlayerMovement : MonoBehaviour
 
     private CameraManager cameraManager;
     private CharacterController characterController;
-    private Animator animator;
+    
+    [SerializeField]
+    private Animator torsoAnimator;
     private Vector3 moveDir;
     private float moveAmount;
     private float jumpForce;
@@ -32,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        animator = GetComponentInChildren<Animator>();
+      //  torsoAnimator = GetComponentInChildren<Animator>();
         GetValuesFromSO();
         canMove = true;
     }
@@ -89,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (characterController.isGrounded)
         {
-            animator.SetBool("IsGrounded", true);
+            torsoAnimator.SetBool("IsGrounded", true);
             Vector3 v = vertical * cameraManager.transform.forward;
             Vector3 h = horizontal * cameraManager.transform.right;
             moveDir = (v + h).normalized;
@@ -102,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            animator.SetBool("IsGrounded", false);
+            torsoAnimator.SetBool("IsGrounded", false);
         }
         moveDir.y -= gravity * Time.deltaTime;
 
@@ -110,12 +112,13 @@ public class PlayerMovement : MonoBehaviour
             _audio.StartPlaying();
         else
             _audio.StopPlaying();
-
+        
+        UpdateAnimator(moveDir.magnitude);
         characterController.Move(moveDir * moveSpeed  * Time.deltaTime);
     }
 
     private void UpdateAnimator(float moveSpeed)
     {
-        animator.SetFloat("Speed", moveSpeed);
+        torsoAnimator.SetFloat("Speed", moveSpeed);
     }
 }
