@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: water 1
   m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: EFFECT_BUMP _ALPHABLEND_ON _COLORADDSUBDIFF_ON _EMISSION _GLOSSYREFLECTIONS_OFF
-    _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECGLOSSMAP _SPECULARHIGHLIGHTS_OFF
+  m_ShaderKeywords: EFFECT_BUMP _ALPHABLEND_ON _COLORCOLOR_ON _EMISSION _GLOSSYREFLECTIONS_OFF
+    _REQUIRE_UV2 _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECGLOSSMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -93,18 +93,18 @@ Material:
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
     - _ColorMask: 15
-    - _ColorMode: 5
-    - _Cull: 2
+    - _ColorMode: 4
+    - _Cull: 0
     - _Cutoff: 0.207
     - _DetailNormalMapScale: 1
     - _DistortionBlend: 1
     - _DistortionEnabled: 1
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0.1
+    - _DistortionStrength: 0.1
+    - _DistortionStrengthScaled: 0.010000001
     - _DstBlend: 10
     - _EmissionEnabled: 1
     - _EnableExternalAlpha: 0
-    - _FlipbookMode: 0
+    - _FlipbookMode: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -116,7 +116,7 @@ Material:
     - _Shininess: 0.078125
     - _SmoothnessTextureChannel: 1
     - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesFarFadeDistance: 0
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 0
     - _SquashAmount: 1
@@ -133,9 +133,9 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0, g: 297.31775, b: 1261.9473, a: 1}
-    - _ColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 188.73726, b: 337.31766, a: 1}
+    - _Color: {r: 0, g: 300.08102, b: 1245.9886, a: 1}
+    - _ColorAddSubDiff: {r: -1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0.18453965, b: 0.3294119, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
