@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,6 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/MainTextAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/DontDestroyOnLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/SetMusic.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interaction.cs" />
@@ -86,6 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CheckHasItem.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" />
       </list>
     </option>
   </component>
