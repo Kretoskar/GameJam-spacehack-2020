@@ -21,6 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/StartText3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WaterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,8 +78,9 @@
         <option value="$PROJECT_DIR$/Assets/BatteriesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/WaterManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/MainTextAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" />
       </list>
     </option>
   </component>
