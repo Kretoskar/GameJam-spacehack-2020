@@ -8,6 +8,7 @@ public class SwimBelowWaterLevel : MonoBehaviour
     [SerializeField] GameObject fish;
     public GameObject fishFollowPoint;
     public float FollowParticlesSpeed;
+    public GameObject Aquarium;
     Transform target;
     float step;
     public float speed = 10f;
