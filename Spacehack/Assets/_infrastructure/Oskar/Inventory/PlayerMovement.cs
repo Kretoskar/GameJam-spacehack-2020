@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private FootstepsAudio _audio;
+    
     [SerializeField]
     private PlayerMovementSO so;
 
@@ -103,6 +105,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsGrounded", false);
         }
         moveDir.y -= gravity * Time.deltaTime;
+
+        if(moveDir.magnitude > 1 && characterController.isGrounded)
+            _audio.StartPlaying();
+        else
+            _audio.StopPlaying();
 
         characterController.Move(moveDir * moveSpeed  * Time.deltaTime);
     }

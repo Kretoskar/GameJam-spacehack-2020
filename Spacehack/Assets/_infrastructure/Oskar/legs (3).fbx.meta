@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 150433cfaab129b49963efd91422eb2b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 3574286307733243726
+    second: running.001
+  - first:
+      74: 3896386494172936759
+    second: legs|backpackAction
+  - first:
+      74: 7558405290067421578
+    second: legs|baterry_1Action
+  - first:
+      74: -1934296798525115622
+    second: legs|baterry_2Action
+  - first:
+      74: 8680149433332845161
+    second: legs|baterry_3Action
+  - first:
+      74: -5291305740542569090
+    second: legs|baterry_4Action
+  - first:
+      74: 1929566400464591874
+    second: legs|baterry_5Action
+  - first:
+      74: 2064989037266778916
+    second: legs|fishAction
+  - first:
+      74: 1736452475168862457
+    second: legs|jarAction
+  - first:
+      74: -986356456013855452
+    second: legs|idle
+  - first:
+      74: -1526253963126674032
+    second: legs|legsAction
+  - first:
+      74: -2666940470557597778
+    second: legs|PlaneAction
+  - first:
+      74: 2552506285361864895
+    second: legs|rigAction
+  - first:
+      74: 8019239634938379726
+    second: legs|running.001
+  - first:
+      74: -912524463417941646
+    second: legs|spine_1Action
+  - first:
+      74: 704417976933042994
+    second: legs|spine_2Action
+  - first:
+      74: 4750283104360477134
+    second: legs|spine_3Action
+  - first:
+      74: -9140629286356929906
+    second: legs|torsoAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
