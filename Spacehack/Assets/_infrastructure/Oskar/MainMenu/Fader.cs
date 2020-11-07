@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Fader : MonoBehaviour
 {
+    [SerializeField] private float _fadeTime = 0.02f;
+    [SerializeField] private float _waitToFade = 0;
     [SerializeField] private bool _fadeOutOnClickEnter = true;
     [SerializeField] private Image _image;
     
@@ -34,10 +36,15 @@ public class Fader : MonoBehaviour
 
     private IEnumerator FadeInCoroutine()
     {
+        _image.color = new Color(_image.color.r, _image.color.g, _image.color.b, 1);
+        yield return new WaitForSeconds(_waitToFade);
+        
         for (float i = 1; i > 0; i-= 0.01f)
         {
             _image.color = new Color(_image.color.r, _image.color.g, _image.color.b, i);
-            yield return new WaitForSeconds(0.02f);
+            
+            
+            yield return new WaitForSeconds(_fadeTime);
         }
         
         if(!_fadeOutOnClickEnter)
@@ -49,7 +56,7 @@ public class Fader : MonoBehaviour
         for (float i = 0; i < 1; i+= 0.01f)
         {
             _image.color = new Color(_image.color.r, _image.color.g, _image.color.b, i);
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(_fadeTime);
         }
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
