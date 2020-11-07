@@ -14,6 +14,8 @@ public class BatteriesManager : MonoBehaviour
     private WaterManager _waterManager;
 
     private int _currentBatteriesCount = 5;
+
+    private int _droppedAmount;
     
     private void Start()
     {
@@ -33,7 +35,7 @@ public class BatteriesManager : MonoBehaviour
                     _batteries[2].GetComponent<MeshRenderer>().material = _noEmissionMaterial;
                     if(amount < 100)
                         _batteries[3].GetComponent<MeshRenderer>().material = _noEmissionMaterial;
-                       if(amount < 5)
+                       if(amount < 50)
                             _batteries[4].GetComponent<MeshRenderer>().material = _noEmissionMaterial;
             
     }

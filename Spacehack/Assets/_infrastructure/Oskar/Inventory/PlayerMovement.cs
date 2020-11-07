@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     
     [SerializeField]
     private Animator torsoAnimator;
+
+    [SerializeField] private ParticleSystem _particleSystem;
+    
     private Vector3 moveDir;
     private float moveAmount;
     private float jumpForce;
@@ -100,7 +103,10 @@ public class PlayerMovement : MonoBehaviour
             moveAmount = Mathf.Clamp01(moveAmount);
 
             if (Input.GetButton("Jump"))
+            {
                 moveDir.y = jumpForce;
+                _particleSystem.Play();
+            }
         }
         else
         {

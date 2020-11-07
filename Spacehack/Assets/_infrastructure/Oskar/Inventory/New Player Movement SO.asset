@@ -15,5 +15,5 @@ MonoBehaviour:
   moveSpeed: 20
   turnSpeed: 5
   rotateSpeed: 10
-  gravity: 10
-  jumpForce: 3
+  gravity: 13.9
+  jumpForce: 15
