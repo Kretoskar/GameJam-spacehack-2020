@@ -124,5 +124,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsInside: 1
-  forceAmt: 10
+  forceAmt: 0
   randomForceAmt: 0
