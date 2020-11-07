@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +31,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManagerSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/WaterGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BatteriesManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/DontGoThroughThings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovementSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WaterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManagerSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/DontGoThroughThings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/SetMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CheckHasItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WaterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/ItemTaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/MainTextAnswer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,13 +70,22 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/DontGoThroughThings.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/ItemTaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/BatteriesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/WaterManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/MainTextAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/StartText/TypeWriterEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/DontDestroyOnLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/SetMusic.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interaction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/Interaction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CheckHasItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" />
       </list>
     </option>
   </component>

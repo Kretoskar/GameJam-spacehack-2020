@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
 {
+    [SerializeField] private int _id;
     [SerializeField] private float _xClamp = 120;
     [SerializeField] private float _yClamp = 120;
 
@@ -13,6 +14,8 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 _positionBeforeDrag;
     private Transform previousParent;
 
+    public int Id => _id;
+    
     [Range(1,10)]
     public float SelfWeight = 1;
     

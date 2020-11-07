@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_infrastructure/Oskar/MainMenu/MainMenu.unity
+    guid: d6f572b1a2c953d4ebe5662bb678f975
+  - enabled: 1
+    path: Assets/_infrastructure/Oskar/StartText/StartText1.unity
+    guid: 69a749294c53e5c429a9f1f63ac86590
+  - enabled: 1
+    path: Assets/_infrastructure/Oskar/StartText/StartText2.unity
+    guid: ec112e42a94b23f44bc047d1924b4c73
+  - enabled: 1
+    path: Assets/_infrastructure/Oskar/StartText/StartText3.unity
+    guid: 3322160fe528b5d42b4ff019b3f02d5a
+  - enabled: 1
+    path: Assets/_infrastructure/Oskar/PlayerController.unity
+    guid: fbc8362381339ce4e957faad5dca92b4
   m_configObjects: {}

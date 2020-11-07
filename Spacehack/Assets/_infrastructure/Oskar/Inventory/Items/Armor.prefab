@@ -87,8 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa50243001c495143b90c0397ec5f0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _id: 1
   _xClamp: 130
   _yClamp: 130
   SelfWeight: 1
-  Weight: 0
-  Effectiveness: 0
