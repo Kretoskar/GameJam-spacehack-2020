@@ -17,10 +17,10 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
     public float SelfWeight = 1;
     
     [HideInInspector]
-    public float Weight;
+    public float Weight => transform.localPosition.x / _xClamp / 2 + .5f;
     
     [HideInInspector]
-    public int  Effectiveness;
+    public int  Effectiveness => (int) ((transform.localPosition.y / _yClamp / 2 + 0.5f) * 10 * SelfWeight);
 
     private void Start()
     {
@@ -46,9 +46,6 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Weight = transform.localPosition.x / _xClamp / 2 + .5f;
-        Effectiveness = (int) ((transform.localPosition.y / _yClamp / 2 + 0.5f) * 10 * SelfWeight) ;
-        
         _weightCalculator.CalculateWeight();
     }
 }

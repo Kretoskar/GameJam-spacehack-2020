@@ -89,6 +89,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _xClamp: 130
   _yClamp: 130
-  SelfWeight: 8.01
+  SelfWeight: 1
   Weight: 0
   Effectiveness: 0

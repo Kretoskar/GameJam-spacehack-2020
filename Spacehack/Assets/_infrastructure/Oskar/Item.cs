@@ -15,7 +15,9 @@ public class Item : MonoBehaviour
     
     public void AddToInventory()
     {
-        Instantiate(_uiPrefab, _itemsParent);
+        GameObject obj = Instantiate(_uiPrefab, _itemsParent);
+        _itemsParent.GetComponent<InventoryItemPlacer>().PlaceItem(obj);
+        
         Destroy(gameObject);
     }
 }

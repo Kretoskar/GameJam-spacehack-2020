@@ -22,6 +22,11 @@
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Spacehack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Armor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Armor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Axe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Axe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Bow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Items/Bow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovementSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WaterManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerRagdoll.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManagerSO.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovementSO.cs" />
@@ -61,8 +66,10 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/DontGoThroughThings.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/ItemTaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" />
       </list>
     </option>
   </component>
