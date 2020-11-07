@@ -13,7 +13,13 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 _positionBeforeDrag;
     private Transform previousParent;
 
+    [Range(1,10)]
+    public float SelfWeight = 1;
+    
+    [HideInInspector]
     public float Weight;
+    
+    [HideInInspector]
     public int  Effectiveness;
 
     private void Start()
@@ -41,7 +47,7 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IEndDragHandler
     public void OnEndDrag(PointerEventData eventData)
     {
         Weight = transform.localPosition.x / _xClamp / 2 + .5f;
-        Effectiveness = (int) ((transform.localPosition.y / _yClamp / 2 + 0.5f) * 10) ;
+        Effectiveness = (int) ((transform.localPosition.y / _yClamp / 2 + 0.5f) * 10 * SelfWeight) ;
         
         _weightCalculator.CalculateWeight();
     }
