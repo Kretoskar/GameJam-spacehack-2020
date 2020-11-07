@@ -871,7 +871,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11671,6 +11671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: torso (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1823817582581819116, guid: b8727dc0c76c7854aa35a1e4649678d8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09dd89fd6e49ed04092ba0821d25be2c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8727dc0c76c7854aa35a1e4649678d8, type: 3}
 --- !u!1001 &862112874
@@ -11799,6 +11804,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216797490944499629, guid: e1d25873c9f50444f99aabfa92f68c93,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216797490944499629, guid: e1d25873c9f50444f99aabfa92f68c93,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d90a8faf6fb9540b084ef2825cc3a5dc,
+        type: 3}
+    - target: {fileID: 1216797490944499629, guid: e1d25873c9f50444f99aabfa92f68c93,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1216797490944499630, guid: e1d25873c9f50444f99aabfa92f68c93,
         type: 3}
