@@ -32,7 +32,6 @@ public class SwimBelowWaterLevel : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity, layerMask))
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * hit.distance, Color.yellow);
-            Debug.Log("Did Hit");
 
             if(hit.transform.tag == "Water")
             {
@@ -47,7 +46,6 @@ public class SwimBelowWaterLevel : MonoBehaviour
         else
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * 1000, Color.white);
-            Debug.Log("Did not Hit");
         }
 
 

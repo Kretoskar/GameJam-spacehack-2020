@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6900820034299839804}
   - component: {fileID: 6677066323874535540}
   - component: {fileID: 3663502179116559791}
+  - component: {fileID: -7075503535097829211}
   m_Layer: 8
   m_Name: Sphere
   m_TagString: Water
@@ -126,3 +127,20 @@ MonoBehaviour:
   IsInside: 1
   forceAmt: 10
   randomForceAmt: 0
+--- !u!114 &-7075503535097829211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738315961212491606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c3d8ab46953564eb896bddfaff3a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evaporateParticleRadius: 10
+  decreaseSizeRate: 1
+  waterParticlePrefab: {fileID: 2738315961212491606}
+  particleSystemPrefab: {fileID: 6850551639841082412, guid: ea1f456b57072ff4e98b4329d286ca53,
+    type: 3}

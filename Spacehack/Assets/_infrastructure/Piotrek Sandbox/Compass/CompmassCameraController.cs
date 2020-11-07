@@ -85,7 +85,7 @@ public class CompmassCameraController : MonoBehaviour
         //change to += if not opposite
         tiltAngle -= smoothY * targetSpeed;
         tiltAngle = Mathf.Clamp(tiltAngle, minAngle, maxAngle);
-        pivot.localRotation = Quaternion.Euler(tiltAngle, 0, 0);
+        //pivot.localRotation = Quaternion.Euler(tiltAngle, 0, 0);
     }
 
     private void FollowTarget()
