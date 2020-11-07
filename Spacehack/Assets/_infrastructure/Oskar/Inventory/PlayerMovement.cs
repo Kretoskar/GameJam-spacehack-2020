@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private Animator torsoAnimator;
 
+    [SerializeField] private Animator legsAnimator;
+
     [SerializeField] private ParticleSystem _particleSystem;
     
     private Vector3 moveDir;
@@ -126,5 +128,6 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimator(float moveSpeed)
     {
         torsoAnimator.SetFloat("Speed", moveSpeed);
+        legsAnimator.SetFloat("Speed", moveSpeed);
     }
 }
