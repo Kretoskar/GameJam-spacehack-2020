@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RockInteraction : Interaction
 {
+    [SerializeField] private GameObject _item;
     [SerializeField] private GameObject _particle;
     [SerializeField] private float _shrinkTime = 3;
     
@@ -28,5 +29,7 @@ public class RockInteraction : Interaction
             transform.localScale = startScale * Mathf.Lerp(1, 0, t);
             yield return null;
         }
+
+        Instantiate(_item, transform.position, Quaternion.identity).SetActive(true);
     }
 }
