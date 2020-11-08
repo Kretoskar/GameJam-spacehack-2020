@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CreateInteraction : Interaction
 {
+    [SerializeField] private GameObject _particle;
     [SerializeField] private GameObject _createObject;
     [SerializeField] private float _sizeUpTime;
     
@@ -12,7 +13,8 @@ public class CreateInteraction : Interaction
         base.Interact();
         
         _createObject.SetActive(true);
-
+        _particle.SetActive(true);
+        
         StartCoroutine(SizeUp());
     }
 
