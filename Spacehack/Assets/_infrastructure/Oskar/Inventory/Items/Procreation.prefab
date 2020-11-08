@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3066689455807583818}
   - component: {fileID: 3066689455807583816}
   m_Layer: 5
-  m_Name: Axe
+  m_Name: Procreation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 926981c448c5ddf42bb3e30c8b9280de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
