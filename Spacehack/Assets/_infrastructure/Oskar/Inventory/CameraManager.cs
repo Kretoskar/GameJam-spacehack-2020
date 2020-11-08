@@ -31,6 +31,8 @@ public class CameraManager : MonoBehaviour
 
     public static CameraManager singleton;
 
+    private bool _locked;
+    
     private void Awake()
     {
         singleton = this;
@@ -55,6 +57,8 @@ public class CameraManager : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetMouseButton(1)) _locked = !_locked;
+        
         //Get input
         float h = Input.GetAxis("Mouse X");
         float v = Input.GetAxis("Mouse Y");
@@ -68,6 +72,8 @@ public class CameraManager : MonoBehaviour
 
     private void RotateCamera(float v, float h, float targetSpeed)
     {
+        if(_locked) return;
+        
         if(turnSmoothing > 0)
         {
             smoothX = Mathf.SmoothDamp(smoothX, h, ref smoothXVel, turnSmoothing);

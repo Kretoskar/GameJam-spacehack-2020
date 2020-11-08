@@ -29,6 +29,8 @@ public class CompmassCameraController : MonoBehaviour
     private Transform pivot;
     private Transform cam;
 
+    private bool _locked;
+    
     public static CompmassCameraController singleton;
 
     private void Awake()
@@ -61,6 +63,7 @@ public class CompmassCameraController : MonoBehaviour
 
         float targetSpeed = mouseSpeed;
 
+        if (Input.GetMouseButton(1)) _locked = !_locked;
 
         //FollowTarget();
         RotateCamera(v, h, targetSpeed);
@@ -68,6 +71,8 @@ public class CompmassCameraController : MonoBehaviour
 
     private void RotateCamera(float v, float h, float targetSpeed)
     {
+        if(_locked) return;
+
         if (turnSmoothing > 0)
         {
             smoothX = Mathf.SmoothDamp(smoothX, h, ref smoothXVel, turnSmoothing);
