@@ -13,7 +13,9 @@ public class CreateInteraction : Interaction
         base.Interact();
         
         _createObject.SetActive(true);
-        _particle.SetActive(true);
+        
+        if(_particle != null)
+            _particle.SetActive(true);
         
         StartCoroutine(SizeUp());
     }
