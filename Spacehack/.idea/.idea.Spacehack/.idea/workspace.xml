@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/WaterGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BatteriesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CreateInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovementSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/InventoryItemPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,12 +83,13 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/Interaction.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/WeightCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CheckHasItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/MainMenu/Fader.cs" />
         <option value="$PROJECT_DIR$/Assets/FootstepsAudio.cs" />
         <option value="$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/BatteriesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/RockInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CreateInteraction.cs" />
       </list>
     </option>
   </component>
