@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Compass/CompmassCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Compass/CompmassCameraController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

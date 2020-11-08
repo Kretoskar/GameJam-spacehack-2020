@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private PlayerMovementSO so;
 
+    [SerializeField] private AudioSource _jetpackAudioSOurce;
+    
     //cached from so
     private float moveSpeed = 100;
     private float turnSpeed = 5;
@@ -106,6 +108,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetButton("Jump"))
             {
+                _jetpackAudioSOurce.Play();
                 moveDir.y = jumpForce;
                 _particleSystem.Play();
             }
