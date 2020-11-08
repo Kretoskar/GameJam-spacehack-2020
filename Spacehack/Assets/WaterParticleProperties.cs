@@ -10,10 +10,15 @@ public class WaterParticleProperties : MonoBehaviour
     public float randomForceAmt;
     float randomX;
     float randomZ;
+    public int everyNthSplashes;
+    public int splashNumber; //Debug
+    public bool isSplashing = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        splashNumber = Random.Range(1, everyNthSplashes);
+        if (splashNumber == 1) isSplashing = true;
     }
 
     private void Update()
