@@ -20,9 +20,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b356ae2-0185-482c-8ef2-65bec522fbd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Post.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Post/Demo.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Post/Demo.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DOTweenPlaymakerActions/Actions/DOTweenPro_Actions.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Editor/Install/LegacyGUI.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Editor/Install/LegacyITween.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Editor/Install/LegacyNetworking.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Editor/Install/Playmaker.1.9.0.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Editor/Install/ProfilerActions.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Versions/PlaymakerDefault.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayMaker/Versions/PlaymakerPreview.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_infrastructure/LevelDesing.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CreateInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CreateInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MovePointSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MovePointSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Oskar/PlayerController.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Light.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Random Fish/Fish in bajoro.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Random Fish/Fish in bajoro.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +137,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/WaterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AllSkyFree/AllSkyFree_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FishMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MovePointSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/CameraManagerSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FishMovementManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Fluid/DontGoThroughThings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_infrastructure/Oskar/music/SetMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FootstepsAudio.cs" root0="FORCE_HIGHLIGHTING" />
@@ -96,6 +191,8 @@
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Piotrek Sandbox/Compass/CompmassCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Inventory/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_infrastructure/Oskar/Interactions/CreateInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/FishMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/MovePointSpawner.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +221,7 @@
       <workItem from="1604685250574" duration="4500000" />
       <workItem from="1604696451875" duration="40000" />
       <workItem from="1604696506548" duration="6580000" />
+      <workItem from="1604948778529" duration="375000" />
     </task>
     <servers />
   </component>

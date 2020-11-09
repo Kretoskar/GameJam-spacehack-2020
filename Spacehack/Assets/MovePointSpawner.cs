@@ -14,9 +14,18 @@ public class MovePointSpawner : MonoBehaviour
     {
         fishMovePoints = GameObject.FindGameObjectsWithTag("FishMovePoint");
         secondsToRearrangeMovepoints = fmManager.SecondsToRearrangeMovepoints;
-        InvokeRepeating("RearrangeMovePoints", 0f, secondsToRearrangeMovepoints);
+        StartCoroutine(MovePointsCoroutine());
     }
 
+    private IEnumerator MovePointsCoroutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(secondsToRearrangeMovepoints);
+            RearrangeMovePoints();
+        }
+    }
+    
     void RearrangeMovePoints()
     {
         foreach (var movePoint in fishMovePoints)
